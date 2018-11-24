@@ -1,5 +1,7 @@
 .jumbotron {
     padding-top: 6.75rem;
+    margin-bottom: 0;
+    border-radius: 0;
 }
 
 @media (min-width: 576px) {
