@@ -1,0 +1,9 @@
+.jumbotron {
+    padding-top: 6.75rem;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding-top: 8.75rem;
+    }
+}
