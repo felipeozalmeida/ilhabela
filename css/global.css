@@ -13,6 +13,19 @@
     text-shadow: 1px 1px 10px #000;
 }
 
+.social-links {
+    font-size: 1.4rem;
+}
+
+.social-links a {
+    color: #fff;
+    transition: color 200ms;
+}
+
+.social-links a:hover {
+    color: #f5af37;
+}
+
 @media (min-width: 576px) {
     .jumbotron {
         padding-top: 7.75rem;
