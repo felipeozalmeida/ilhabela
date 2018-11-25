@@ -1,0 +1,6 @@
+.home .jumbotron {
+    background-image: url('../img/bg-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
