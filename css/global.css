@@ -17,12 +17,13 @@
     font-size: 1.4rem;
 }
 
-.social-links a {
+.social-link {
+    display: inline-block;
     color: #fff;
     transition: color 200ms;
 }
 
-.social-links a:hover {
+.social-link:hover {
     color: #f5af37;
 }
 
