@@ -45,6 +45,13 @@
     text-shadow: 1px 1px 10px #000;
 }
 
+.home .card-show .card-img-overlay {
+    background-image: url('../img/bg-card-show.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media (min-width: 576px) {
     .home .wrapper-card {
         min-width: 32.06%;
