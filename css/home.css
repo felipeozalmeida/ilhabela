@@ -27,6 +27,8 @@
 .home .wrapper-card {
     display: inline-block;
     min-width: 46.6%;
+    min-width: 149.2px;
+    min-height: 188.14px;
     padding-left: 3.75px;
     padding-right: 3.75px;
 }
@@ -75,7 +77,9 @@
 
 @media (min-width: 576px) {
     .home .wrapper-card {
-        min-width: 32.06%;
+        min-width: 32%;
+        min-width: 184.3px;
+        min-height: 232.40px;
     }
 }
 
@@ -83,17 +87,15 @@
     .home .jumbotron {
         background-position: bottom;
     }
-    .home .wrapper-card {
-        min-width: 24.28%;
+    .home .cards {
+        justify-content: space-around;
     }
 }
 
 @media (min-width: 992px) {
-    .home .cards {
-        justify-content: space-around;
-    }
     .home .wrapper-card {
-        min-width: 240.84px;
+        min-width: 192.67px;
+        min-height: 242.95px;
     }
 }
 
