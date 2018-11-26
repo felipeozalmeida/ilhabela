@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.cards {
+.home .cards {
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
@@ -13,39 +13,39 @@
     overflow-y: hidden;
 }
 
-.cards::before,
-.cards::after {
+.home .cards::before,
+.home .cards::after {
     display: inline-block;
     content: '';
     padding-left: 11.25px;
 }
 
-.cards::-webkit-scrollbar {
+.home .cards::-webkit-scrollbar {
     display: none;
 }
 
-.wrapper-card {
+.home .wrapper-card {
     display: inline-block;
     min-width: 46.6%;
     padding-left: 3.75px;
     padding-right: 3.75px;
 }
 
-.card {
+.home .card {
     width: 100%;
     height: 100%;
 }
 
-.card-title {
+.home .card-title {
     font-size: 1.3rem;
 }
 
-.card-img-overlay .card-title {
+.home .card-img-overlay .card-title {
     padding-top: 104%;
 }
 
 @media (min-width: 576px) {
-    .wrapper-card {
+    .home .wrapper-card {
         min-width: 32.06%;
     }
 }
@@ -54,25 +54,25 @@
     .home .jumbotron {
         background-position: bottom;
     }
-    .wrapper-card {
+    .home .wrapper-card {
         min-width: 24.28%;
     }
 }
 
 @media (min-width: 992px) {
-    .cards {
+    .home .cards {
         justify-content: space-around;
     }
-    .wrapper-card {
+    .home .wrapper-card {
         min-width: 240.84px;
     }
 }
 
 @media (min-width: 1200px) {
-    .cards {
+    .home .cards {
         justify-content: center;
     }
-    .wrapper-card {
+    .home .wrapper-card {
         margin-left: .75rem;
         margin-right: .75rem;
     }
