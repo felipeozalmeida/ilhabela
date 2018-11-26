@@ -66,6 +66,13 @@
     background-repeat: no-repeat;
 }
 
+.home .card-stand-up .card-img-overlay {
+    background-image: url('../img/bg-card-stand-up.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media (min-width: 576px) {
     .home .wrapper-card {
         min-width: 32.06%;
