@@ -42,6 +42,7 @@
 
 .home .card-img-overlay .card-title {
     padding-top: 104%;
+    text-shadow: 1px 1px 10px #000;
 }
 
 @media (min-width: 576px) {
