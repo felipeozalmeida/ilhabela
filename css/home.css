@@ -40,6 +40,10 @@
     font-size: 1.2rem;
 }
 
+.card-img-overlay .card-title {
+    padding-top: 104%;
+}
+
 @media (min-width: 576px) {
     .wrapper-card {
         min-width: 48.09%;
