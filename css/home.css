@@ -36,6 +36,7 @@
     height: 100%;
 }
 
+<<<<<<< HEAD
 .home .card-title {
     font-size: 1.3rem;
 }
@@ -50,6 +51,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+=======
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-img-overlay .card-title {
+    padding-top: 6.5rem;
+>>>>>>> 12d13367fe66200c6eac829ba6919faecd4710d9
 }
 
 @media (min-width: 576px) {
