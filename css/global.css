@@ -1,3 +1,20 @@
+.btn-primary {
+    background-color: #f4a914;
+    border-color: #e4a713;
+}
+
+.btn-primary:hover {
+    background-color: #e4a713;
+    border-color: #c57a14;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #c57a14;
+    border-color: #c57a14;
+}
+
 .jumbotron {
     padding-top: 14.75rem;
     padding-bottom: 11rem;
