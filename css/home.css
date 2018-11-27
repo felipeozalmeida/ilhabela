@@ -26,9 +26,10 @@
 
 .home .wrapper-card {
     display: inline-block;
-    min-width: 46.6%;
     min-width: 149.2px;
+    max-width: 149.2px;
     min-height: 188.14px;
+    max-height: 188.14px;
     padding-left: 3.75px;
     padding-right: 3.75px;
 }
@@ -75,11 +76,29 @@
     background-repeat: no-repeat;
 }
 
+.home .depoimento h3 {
+    font-size: 1.55rem;
+}
+
+.home .acomodacoes .card img {
+    height: 100px;
+}
+
+.icone {
+    display: block;
+    font-size: 5rem;
+    line-height: 1;
+}
+
 @media (min-width: 576px) {
     .home .wrapper-card {
-        min-width: 32%;
         min-width: 184.3px;
+        max-width: 184.3px;
         min-height: 232.40px;
+        max-height: 232.40px;
+    }
+    .home .acomodacoes .card img {
+        height: 140px;
     }
 }
 
@@ -95,7 +114,9 @@
 @media (min-width: 992px) {
     .home .wrapper-card {
         min-width: 192.67px;
+        max-width: 192.67px;
         min-height: 242.95px;
+        max-height: 242.95px;
     }
 }
 
